@@ -1,22 +1,43 @@
 # Pathfinder — AI Website Testing Agent
 
-A responsive project showcase for an AI agent concept that explores website user journeys and reports reproducible bugs.
+<p align="center">
+  <a href="https://tabishsyed777.github.io/AI-website-testing-agent/"><strong>Open the live project site ↗</strong></a>
+  <br>
+  <img src="https://github.com/tabishsyed777/AI-website-testing-agent/actions/workflows/pages.yml/badge.svg" alt="GitHub Pages deployment status">
+</p>
 
-## Preview
+Pathfinder is a project concept for an AI agent that explores website user journeys, catches broken flows, and turns findings into clear, reproducible reports.
 
-https://tabishsyed777.github.io/AI-website-testing-agent/
+## Project preview
 
-## Local preview
+<p align="center">
+  <img src="pathfinder-homepage.png" alt="Pathfinder homepage showing its website testing agent concept and sample audit report" width="900">
+  <br>
+  <em>The landing page and sample audit report</em>
+</p>
 
-Open `index.html` in a browser. The “Run sample” control is an interactive mockup; it does not scan or connect to the URL entered.
+<p align="center">
+  <img src="pathfinder-journey.png" alt="Pathfinder workflow showing how a plain-language goal becomes a reproducible bug report" width="900">
+  <br>
+  <em>The three-step flow: set a goal, explore, and review the evidence</em>
+</p>
 
-## Concept
+## What it is
 
-Pathfinder is envisioned as an AI testing agent that can:
+The envisioned agent would:
+
 - Follow user journeys described in plain language
 - Detect broken or confusing behavior across pages and forms
-- Produce reproduction steps and visual evidence for human review
+- Produce reproduction steps and visual evidence for a person to review
+
+## Try the prototype
+
+Visit the [live Pathfinder site](https://tabishsyed777.github.io/AI-website-testing-agent/) and scroll to **Try the concept**. The “Run sample” control is an interactive mockup: it displays sample findings and does not scan or connect to the URL entered.
+
+## Run locally
+
+Open `index.html` in a browser. The site is a self-contained static page with no build step.
 
 ## Deployment
 
-The included GitHub Actions workflow deploys the root of the repository to GitHub Pages on each push to `main`. Set **Settings → Pages → Build and deployment → Source** to **GitHub Actions** if it is not already selected.
+GitHub Actions deploys the repository to GitHub Pages on each push to `main`. The publishing source is set to **GitHub Actions** under **Settings → Pages**.
